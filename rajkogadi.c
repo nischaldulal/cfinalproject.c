@@ -9,7 +9,7 @@ typedef struct seat {
     int ticketNumber;
 } Seat;
 
-void displayMenu();
+void displaymenu();
 void viewSeatAvailability(Seat seats[]);// function prototypying
 void bookSeat(Seat seats[]);
 void cancelSeat(Seat seats[]);
@@ -60,7 +60,7 @@ int main() {
     return 0;// end of main function
 }
 
-void displayMenu() {
+void displaymenu() {
     printf("************************************************************************\n\t\t WELCOME TO RAJ TRAVELS\n");
     printf("1. View Seat Availability\n");
 void viewSeatAvailability(Seat seats[]) ; // function to display the menu for booking ticket
