@@ -33,7 +33,7 @@ int main() {
     }
 
     do {
-        displayMenu();
+        displaymenu();
         printf("Enter your choice: ");
         scanf("%d", &choice);
 
